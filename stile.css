@@ -16,3 +16,17 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+#vincitore{
+    color: rgb(74, 172, 35);
+}
+#cpu{
+    color: white;
+    margin-left: 1rem;
+}
+#giocatore1{
+    color: white;
+    margin-left: 1rem;
+}
+#span{
+    color: red;
+}

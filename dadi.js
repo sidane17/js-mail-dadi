@@ -23,3 +23,29 @@ document.getElementById("dadi").onclick=function getRandomInt() {
         document.getElementById("vincitore").innerHTML=`Pareggio;)`;
     }
    }
+//    email---------------------------------------------------------
+
+let a=["khalilsidane@gmail.com","topogigio@gmail.com","boolean@gmail.com"];
+let c=0;
+
+document.getElementById("submit").onclick=function(){
+    for(let i=0;i<a.length;i++){
+        console.log("pazzo")
+        let b=document.getElementById("e").value;
+        if(b==a[i]){
+            
+         c++;
+        }else{
+            c=0;
+        }
+      
+    }
+    if(c==1){
+        console.log("presente");
+        document.getElementById("span").innerHTML="OK"
+    }else{
+        console.log("non presente");
+        document.getElementById("span").innerHTML="Email non presente"
+    }
+    
+}
